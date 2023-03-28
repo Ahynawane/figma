@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'KronaOne', cursive;
+}
+.destaque{
+    color: rgb(11, 205, 253);
+}
+
+.box{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem{
+    margin-left: 30px;
+    width: 20%;
+    border-radius: 30px;
+}
+
+.titulo_destaque{
+    color: rgb(7, 164, 212);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    border: 0px;
+    background-color: rgb(0, 164, 212);
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(5, 73, 94); /* Green */
+  color: white;
+}
